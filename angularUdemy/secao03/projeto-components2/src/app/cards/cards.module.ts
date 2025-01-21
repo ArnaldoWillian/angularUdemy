@@ -4,6 +4,7 @@ import { CardComponent } from '../card/card.component';
 import { CardRoxoComponent } from '../card-roxo/card-roxo.component';
 import { ButtonComponent } from '../button/button.component';
 import { CarRoxoButtonComponent } from '../car-roxo-button/car-roxo-button.component';
+import { CardButtonCancelComponent } from '../card-button-cancel/card-button-cancel.component';
 
 
 
@@ -12,7 +13,8 @@ import { CarRoxoButtonComponent } from '../car-roxo-button/car-roxo-button.compo
     CardComponent,
     ButtonComponent,
     CardRoxoComponent,
-    CarRoxoButtonComponent
+    CarRoxoButtonComponent,
+    CardButtonCancelComponent
 
   ],
   imports: [
