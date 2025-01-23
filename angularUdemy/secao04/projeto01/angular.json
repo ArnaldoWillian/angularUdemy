@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "projeto-components2": {
+    "projeto01": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -24,7 +24,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/projeto-components2",
+            "outputPath": "dist/projeto01",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -39,12 +39,7 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": [],
-            "stylePreprocessorOptions": {
-              "includePaths": [
-                "src/styles.scss"
-              ]
-            }
+            "scripts": []
           },
           "configurations": {
             "production": {
@@ -74,10 +69,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "projeto-components2:build:production"
+              "buildTarget": "projeto01:build:production"
             },
             "development": {
-              "buildTarget": "projeto-components2:build:development"
+              "buildTarget": "projeto01:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -85,7 +80,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "projeto-components2:build"
+            "buildTarget": "projeto01:build"
           }
         },
         "test": {
